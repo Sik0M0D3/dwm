@@ -1,2 +1,2 @@
-Some of this diffs don't work, i applied them manually but they are in here just as an example.
-I usually delete the folder when i clone the repo but they are useful to revert or modify the patches.
+Some of this patches don't work or have been applied in a different manner than intended by the diff file (e.g 62-statuspadding-6.3.diff).
+And some i applied manually but they're here as an example, i usually erase the folder when i clone the repo but they're useful to revert them.
