@@ -132,7 +132,7 @@ static const Arg tagexec[]  = {
   SHCMD("com.valvesoftware.Steam"),
   GTKCMD("lutris"),
   SHCMD("com.discordapp.Discord"),
-  SHCMD("easyeffects"),
+  SHCMD("st -e btop"),
 };
 
 #include "movestack.c"
