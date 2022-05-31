@@ -1,6 +1,6 @@
 My dwm build has 20 patches so you might consider it bloat and i get that but
-dwm is so robust that it doesn't really matter, and
-that's why i love it :D (and it's still way less bloated than your average DE).
+dwm is so robust that it doesn't really matter, and that's why i love it :D 
+(and it's still way less bloated than your average DE).
 
 dwm - dynamic window manager
 ============================
