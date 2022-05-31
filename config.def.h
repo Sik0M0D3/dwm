@@ -92,11 +92,11 @@ static const int nmaster        = 1;    /*  number of clients in master area    
 static const int resizehints    = 0;    /*  1 = respect size hints in tiled resizals  */
 static const int lockfullscreen = 0;    /*  1 = force focus on the fullscreen window  */
 static const Layout layouts[] = {
-  /*Symbol    Function  */
-  { "[]=",    tile      },  /*  <-  First Layout = Default  */
-	{ "<f>",    NULL      },  /*  <-  Function = Null = Floating Layout   */
-	{ "[M]",    monocle   },
-	{ NULL,     NULL      },  /*  <- (Symbol && Function) == Null -> it's end of the array  */
+  /*  Symbol    Function  */
+  {   "󰙀",      tile      },  /*  First Layout = Default  */
+  {   "󰮐",      NULL      },  /*  Function = Null = Floating Layout   */
+  {   "󰄶",      monocle   },
+  {   NULL,     NULL      },  /*  (Symbol && Function) == Null -> it's end of the array  */
 };
 
 /* Key Definitions */
