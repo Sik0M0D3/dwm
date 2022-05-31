@@ -89,8 +89,8 @@ static const int lockfullscreen = 0;    /*  1 = force focus on the fullscreen wi
 static const Layout layouts[] = {
   /*  Symbol    Function  */
   {   "󱗼",      tile      },  /*  the First Layout is the Default one
-  {   "󱇙",      tile      },
-  {   "󰙀",      tile      },  */
+  {   "󱇙",      tile      },  <- This 2 icons are extra, if u use the ~/.local/bin/notify-layout
+  {   "󰙀",      tile      },  <- script u should edit that accordingly to match the chosen icon */
   {   "󰮐",      NULL      },  /*  Function == Null ? Floating Layout   */
   {   "󰄶",      monocle   },
   {   NULL,     NULL      },  /*  (Symbol && Function) == Null -> it's end of the array  */
@@ -113,11 +113,11 @@ static const Layout layouts[] = {
 /* Commands */
 static char dmenumon[2] = "0" ; /* dmenu arg,   ↓ (monitor) */
 static const char *dmenucmd[] = { "dmenu_run",  "-m", dmenumon,
-  /*Fg              Bg    */
+  /*	Fg              Bg	*/
   "-nf",  red,    "-nb",  black,
   "-sf",  black,  "-sb",  red,
-  /* The 3 args below this line require dmenu to be patched with xyz patch, this is to spawn */
-  "-x", "600",  "-y", "300",  "-z", "720",  /* dmenu in the middle of a 1920x1080 screen */
+  /* Comment the line below this one if you don't have dmenu patched with xyz patch	*/
+  "-x", "600",  "-y", "300",  "-z", "720",	/* dmenu in the middle of a 1920x1080 screen */
   NULL
 };
 
@@ -127,7 +127,7 @@ static const Arg tagexec[]  = {
   SHCMD("chromium --incognito"),
   SHCMD("steam"),
   GTKCMD("lutris"),
-  SHCMD("com.discordapp.Discord"),
+  SHCMD("discord"),
   SHCMD("st -e btop")
 };
 
