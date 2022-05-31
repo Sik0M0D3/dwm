@@ -9,4 +9,6 @@ then i do a fc-cache (and reboot if necessary) and voila (repeat the same proces
 
 Compositor:
 -----------
-- For a compositor i don't use the picom from the official Arch repos i use jonaburg's fork from the aur https://aur.archlinux.org/picom-jonaburg-git.git
+
+  For a compositor i don't use the picom from the official Arch repos i use jonaburg's fork from the aur
+  https://aur.archlinux.org/picom-jonaburg-git.git
