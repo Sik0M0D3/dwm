@@ -3,6 +3,7 @@ This list is just in case i delete the patches folder.
 352-functionalgaps+pertag-6.2.diff
 188-statuscmd-status2d-20210405-60bb3df.diff
 130-focusonclick-20200110-61bb8b2.diff
+116-barpadding-6.3.diff
 99-focusfullscreen-20211121-95e7342.diff
 94-cyclelayouts-6.3.diff
 94-movestack-20211115-a786211.diff
