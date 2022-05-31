@@ -43,8 +43,7 @@ static const char *colors[][3]  = {
   [SchemeTitleFloat]  = { gray1,  black   },  /*  only used if colorfultitle is off   */
 };
 static const int tagschemes[] = {
-  SchemeTag1, SchemeTag2, SchemeTag3,
-  SchemeTag4, SchemeTag5, SchemeTag6
+  SchemeTag1, SchemeTag2, SchemeTag3, SchemeTag4, SchemeTag5, SchemeTag6
 };
 
 /* Tagging */
@@ -67,8 +66,8 @@ static const Rule rules[] = { /*  <-- This are the Tag's Rules
 
       Class                 Instance              Title               Mask    Float   Monitor */
     { NULL,                 NULL,                 "Alacritty",        0<<0,   0,      -1      },
-    { NULL,                 NULL,                 "bash",             0<<0,   1,      -1      },
-    { NULL,                 NULL,                 "nvim",             1<<0,   0,      -1      },
+    { NULL,                 NULL,                 "nvim",             0<<0,   0,      -1      },
+		{ NULL,                 NULL,                 "bash",             0<<0,   1,      -1      },
     { "librewolf",          "Navigator",          "LibreWolf",        1<<1,   0,      -1      },
     { "Chromium-browser",   "chromium-browser",   NULL,               1<<1,   0,      -1      },
     { "Zenity",             "zenity",             "Steam setup",      1<<2,   1,      -1      },
